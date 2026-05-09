@@ -4,11 +4,11 @@ def media(notas):
 def situacao(m):
 
         if m >= 6:
-            return "aprovado"
+            return "aprovado!"
         elif m>= 4:
-            return "recuperação"
+            return "recuperação!"
         else:
-            return "reprovado"
+            return "reprovado!"
 
 notas = []
 
